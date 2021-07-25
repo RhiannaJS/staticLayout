@@ -1,11 +1,81 @@
-#backgroud{
+#pageHeader{
+    background-color: black;
+    font-family: 'Overpass', 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
     margin: 0px;
-    padding: 0px;
-  
-
+    font: 14px white;
+    
 }
 
-#kastLogo{
-    position: 0;
-    margin: 20px 0px 0px;
+
+#nav-image {
+    
+    display: inline;
+    display: flex;
+    justify-content: flex-start;
+    width: 72px;
+    height: 72px;
+    background: #e33e42;
+    float: left;
+    padding: 14px 0px 0px 18px;
+    margin: 0px
 }
+
+.nav-list li {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    background: black;
+    width: 72px;
+    height: 72px;
+    padding: 14px 0px 0x 15px;
+    padding-left: 18px;
+    }
+
+.banner-wrapper {
+    position: center;
+    margin: 0px 351.5px;
+    padding: 0px 95.1406px;
+}
+
+.bannerBox{
+    background-color: black;
+}
+
+#contentsCards {
+    padding: 85px;
+    border: 85px;
+}
+
+.cards-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;  
+}
+
+#cardsWapper {
+    position: center;
+}
+
+.card1-content{
+    padding: 21px 34px 0px;
+    font: 21px black;
+}
+
+.card2-content{
+    padding: 21px 34px 0px;
+    font: 21px black;
+}
+
+.card3-content{
+    padding: 21px 34px 0px;
+    font: 21px black;
+}
+
+.EFAlogoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
