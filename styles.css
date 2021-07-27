@@ -1,45 +1,92 @@
-#pageHeader{
-    background-color: black;
+body {
+     
     font-family: 'Overpass', 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
-    margin: 0px;
-    font: 14px white;
+    margin: 0;
+    height: 100%;
+    width: 100%;
     
 }
-
 
 #nav-image {
-    
-    display: inline;
+    /* width: 5%; */
+    /* display: inline;
     float: left;
     justify-content: flex-start;
-    width: 72px;
-    height: 72px;
+    width: 16px;
+    height: 16px;
     background: #e33e42;
     border: 0px;
-    padding: 14px 0px 0px 18px;
-    margin: 0px
+    margin: 0px;
+    padding: 14px 0px 0px 18px; */
+    
 }
 
-.nav-list li {
-    display: inline-flex;
-    justify-content: flex-end;
-    align-items: stretch;
-    background: black;
+.nav-list {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 10;
+    /* display: inline-flex; */
+    /* justify-content: flex-end; */
+    /* align-items: stretch; */
+    background: black; 
+    
+    /* color: white;
     width: 72px;
     height: 72px;
     padding: 14px 0px 0x 15px;
-    padding-left: 18px;
+    padding-left: 18px; */ 
     }
+
+.nav-list li {
+    /* margin-left: auto; */
+    text-decoration: none;
+    float: left;
+    
+}    
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-list img {
+    width: 55px;
+    margin-left: -22px !important;
+    margin-top: -16px;
+    margin-bottom: -3px;
+    text-decoration: none;
+}
+
+.right {
+    float: right;
+}
+
+.fullpagevideo {
+    width: 100%;
+    z-index: -1;
+    height: 50%;
+ 
+}
 
 .banner-wrapper {
     position: center;
-    margin: 0px 351.5px;
-    padding: 0px 95.1406px;
+    margin: 0px 350px;
+    padding: 0px 100px;
+    background-color: green;
 }
 
 .bannerBox{
     background-color:black;
-    font ; 
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+    z-index: 1;
+    position: absolute;
+    /* bottom: 20px; */
+    top: 500px;
+    left: 500px;
 }
 
 #contentsCards {

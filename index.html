@@ -11,28 +11,41 @@
 
 <body>
     <!--navbar  -->
-    <nav>
-        <div id="pageHeader">
-            <div id= "nav-image"><a href="elevenfifty.org" target="_blank"><img src="assets/mobile-shield.png" alt="ElevenFifty Sheild"></a></div>
-        </div>    
-        <ul class = "nav-list">
-            <li class="nav-element"><a href="elevenfifty.org" target="_blank">Eleven Fifty Academy</a></li>
+    <nav class="nav-list">
+        <ul  class="navbar"></ul>
+            <li id="nav-image"><a href="elevenfifty.org" target="_blank"><img src="assets/mobile-shield.png"
+                        alt="ElevenFifty Sheild"></a></li>
+            <li class="nav-EFA"><a href="elevenfifty.org" target="_blank">Eleven Fifty Academy</a></li>
+            <div class="right">
             <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/courses/">COURSES</a></li>
             <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/admissions/">ADMISSIONS</a></li>
             <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/veterans/">VETERANS</a></li>
-                   
-            <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/about/">ABOUT></a></li> 
-                   
+
+            <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/about/">ABOUT</a></li>
+
             <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/campus-locations/">CAMPUS</a></li>
-                    
+
             <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/partners/"">EMPLOYERS</a></li>
     <input type=" text" placeholder="Search...">
             <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/courses/">SCHEDULE A MEETING</a></li>
-               
-            <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/courses/">APPLY NOW</a></li>
+
+            <li class="nav-element"><a class=navbarmenu href="elevenfifty.org/courses/">APPLY NOW</a></li></div>
         </ul>
-     
+    
     </nav>
+    <div >
+       
+        <div class="bannerBox">
+            <h1>ATTEND A FREE INTRO COURSE!</h1>
+            <a class="bannerBoxButton" href="https://elevenfifty.org/courses/free-intro-courses/" target="_blank"></a>
+            <h1>LEARN MORE</h1>
+            <a class="learnMore" href="https://elevenfifty.org/courses/free-intro-courses/" target="_blank"></a>
+        </div>
+        <video muted autoplay loop class="fullpagevideo">
+            <source src="assets/EFA-home.webm">
+        </video>
+    </div>
+
     <!-- <div class="dropdown">
     <ul>
     <div class="dropdown-content1">
@@ -112,73 +125,85 @@
         <li><a href="https://elevenfifty.org/partners/work-with-us/"target="_blank">Work With Us</a></li>
     </ul>    
     </div>         -->
-
+    <!-- Banner Box on Top of Video
     <div class="banner-wrapper">
         <div class="bannerBox">
             <h1>ATTEND A FREE INTRO COURSE!</h1>
             <a class="bannerBoxButton" href="https://elevenfifty.org/courses/free-intro-courses/" target="_blank"></a>
             <h1>LEARN MORE</h1>
-            <a class = "learnMore" href="https://elevenfifty.org/courses/free-intro-courses/" target="_blank"></a></div>
+            <a class="learnMore" href="https://elevenfifty.org/courses/free-intro-courses/" target="_blank"></a>
+        </div>
     </div>
-    <div class="jumpToButton">
+    <!-- Round "Jump to the next section" button -->
+    <!-- <div class="jumpToButton"> 
         <a href="https://elevenfifty.org/#contentSections/"></a>
         <i class="far fa-chevron-circle-down"></i>
     </div>
+    <!-- Large video 
     <div class="fullpagevideo">
         <video muted autoplay loop>
             <source src="assets/EFA-home.webm" />
             Your browser does not support the video tag.
         </video>
     </div>
+    <!-- Course Information Cards 
     <div id="contentsCards" class="cardsWrapper">
         <div>
-            <h1>COURSE INFORMATION</h1></div>
-            <div class="cards-flex">
-                <div class="card1">
-                    <a href="https://elevenfifty.org/courses/free-intro-to-coding/" target="_blank"></a>
-                    <div class="card1-wrapper">
+            <h1>COURSE INFORMATION</h1>
+        </div>
+        <div class="cards-flex">
+            <div class="card1">
+                <a href="https://elevenfifty.org/courses/free-intro-to-coding/" target="_blank"></a>
+                <div class="card1-wrapper">
                     <div class="card1-content">
                         <h2>Free Intro Courses - Online</h2>
                         <p>Want to discover if you'd enjoy a career in coding or cybersecurity? Try one of our FREE
                             intro courses from home.</p>
-                        <div class="cardLink1"></div>"SIGN UP NOW"<i class="far fa-angle-right"></i></div>
-                       </div>
-                       </div> 
-                <div id="card2"class="card2-wrapper">
-                    <a href="https://elevenfifty.org/courses/full-time-immersive/" target="_blank"></a>
-                    <div >
+                        <div class="cardLink1">"SIGN UP NOW"</div><i class="far fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="card2" class="card2-wrapper">
+                <a href="https://elevenfifty.org/courses/full-time-immersive/" target="_blank"></a>
+                <div>
                     <div class="card2-content">
                         <h2>Full-Time 12/14 - Week Courses</h2>
-                            <p>Learn today's most relevant software development or cybersecurity skills to kick off
-                                a new career i the tech industry.</p>
+                        <p>Learn today's most relevant software development or cybersecurity skills to kick off
+                            a new career i the tech industry.</p>
                         <div class="cardLink2">"FULL-TIME COURSES"<i class="far fa-angle-right"></i></div>
-                    </div>    
                     </div>
-                    </div>    
-                <div id="card3"class="card3-wrapper">
-                    <a href="https://elevenfifty.org/courses/part-time/" target="_blank"></a>
-                    <div class="card3-content">
-                        <h2>Part-Time 24-Week Courses</h2>
-                            <p>Our part-time coding bootcamps allow students the flexibility to work while
-                                attending class virtually and on-site. Make money and change careers at the
-                                same time.</p>
-                            <div class="cardLink3">"PART-TIME COURSES"<i class="far fa-angle-right"></i> </div>
-                        </div>  
-                        </div>               
-                    </div> 
-            </div>                     
-        <div class="sheildGroup"class="sheildGroup-wrapper">
-                <ul class="EFAlogoSection">
-                    <li class="section1"></li>
-                        <div class="first-column"id="EFALogo">
-                            <img src="assets/shield.png"alt="Eleven Fifty Academy Logo Grey"></div>
-                                <li class="section2"></li>
-                                <div class="second-column">
-                                    <h2>The tech world is rapidly evolving. Our curriculum keeps pace.</h2>
-                                        <p>"Eleven Fifty Academy is a 501(c)(3) nonprofit code and cybesecurity academy and was the first coding bootcamp
-                                            in Indiana. We believe in impacting the lives of students by providing relevant coding skills for the
-                                            most in-demand jobs in today's tech ecosystem.</p></ul>
-                                        </div>
+                </div>
+            </div>
+            <div id="card3" class="card3-wrapper">
+                <a href="https://elevenfifty.org/courses/part-time/" target="_blank"></a>
+                <div class="card3-content">
+                    <h2>Part-Time 24-Week Courses</h2>
+                    <p>Our part-time coding bootcamps allow students the flexibility to work while
+                        attending class virtually and on-site. Make money and change careers at the
+                        same time.</p>
+                    <div class="cardLink3">"PART-TIME COURSES"<i class="far fa-angle-right"></i> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EFA Shield with Paragraph 
+    <div class="sheildGroup" class="sheildGroup-wrapper">
+        <ul class="EFAlogoSection">
+            <li class="section1"></li>
+            <div class="first-column" id="EFALogo">
+                <img src="assets/shield.png" alt="Eleven Fifty Academy Logo Grey">
+            </div>
+            <li class="section2"></li>
+            <div class="second-column">
+                <h2>The tech world is rapidly evolving. Our curriculum keeps pace.</h2>
+                <p>"Eleven Fifty Academy is a 501(c)(3) nonprofit code and cybesecurity academy and was the first coding
+                    bootcamp
+                    in Indiana. We believe in impacting the lives of students by providing relevant coding skills for
+                    the
+                    most in-demand jobs in today's tech ecosystem.</p>
+        </ul>
+    </div>
+    </div> -->
 </body>
 
 </html>
