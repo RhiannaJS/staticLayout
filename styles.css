@@ -59,6 +59,7 @@ body {
     text-decoration: none;
 }
 
+
 .right {
     float: right;
 }
@@ -87,18 +88,30 @@ body {
     /* bottom: 20px; */
     top: 500px;
     left: 500px;
+    font-size: 25px;
 }
+
+/* #learnMoreh2 { 
+    background-color: red;
+    margin: 10px;
+    top: 20px;
+    left: 20px;
+    background-color: none;
+
+}*/
 
 #contentsCards {
     padding: 85px 0px;
 }
 
-.cardsWapper {
-    position: center;
-}
+/* .cardsWapper { */
+    /* position: center; */
+/* } */
 
 #contentsCards h1 {
     position: center;
+    margin: auto;
+    padding: 0px;
 }
 
 .cards-flex{
@@ -113,26 +126,57 @@ body {
     font: 21px black;
 }
 
+.cardLink1{
+    background-color: #E33E42;
+    text-decoration: none;
+    color: white;
+    
+}
+
 .card2-content{
     padding: 21px 34px 0px;
     font: 21px black;
 }
 
-.card3-content{
+.cardLink2{
+    background-color: #E33E42;
+    text-decoration: none;
+    color: white;
+}
+
+.card3-content {
     padding: 21px 34px 0px;
     font: 21px black;
+    
+}
+
+.cardLink3{
+    background-color: #E33E42;
+    text-decoration: none;
+    color: white;
 }
 
 .EFAlogoSection{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     flex-direction: row;
     margin: 40px 40px 40px 40px;
     border: 40px 40px 40px 40px;
     padding: 40px 40px 40px 40px;
-    
+    text-decoration: none;
+    list-style-type: none;
+    width: 850px;
+    font-size: 21px;
+    margin: auto;
 }
 
+#sheildImg {
+    margin: 300px;
+    padding: 300px;
+}
 
+ .second-column h2 { 
+     font: 36px #348DB9; 
+} 
 
