@@ -7,7 +7,17 @@ body {
     
 }
 
-#nav-image {
+.caresAct {
+    position: relative;
+
+} 
+
+#caresActdescription {
+    position: center;
+    
+} 
+
+/* #nav-image { */
     /* width: 5%; */
     /* display: inline;
     float: left;
@@ -19,7 +29,7 @@ body {
     margin: 0px;
     padding: 14px 0px 0px 18px; */
     
-}
+/* } */
 
 .nav-list {
     position: fixed;
