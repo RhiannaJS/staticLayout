@@ -8,12 +8,19 @@ body {
 }
 
 .caresAct {
-    position: relative;
+     position: relative;
+    background: #Fbd715;
+    text-align: center;
+    line-height: 2.5;
+  
 
 } 
 
 #caresActdescription {
     position: center;
+    color: black;
+    font: 14px 'Overpass', 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
+
     
 } 
 
@@ -47,6 +54,12 @@ body {
     padding: 14px 0px 0x 15px;
     padding-left: 18px; */ 
     }
+
+#learnMore{
+    position: relative;
+    background: black;
+    color: white;
+}
 
 .nav-list li {
     /* margin-left: auto; */
@@ -101,14 +114,15 @@ body {
     font-size: 25px;
 }
 
-/* #learnMoreh2 { 
+#learnMoreh2 { 
     background-color: red;
-    margin: 10px;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
     top: 20px;
     left: 20px;
     background-color: none;
-
-}*/
+}
 
 #contentsCards {
     padding: 85px 0px;
@@ -118,8 +132,13 @@ body {
     /* position: center; */
 /* } */
 
-#contentsCards h1 {
-    position: center;
+#contentsCards  h1 {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #348DB9;
+    font-size: 60px;
     margin: auto;
     padding: 0px;
 }
@@ -131,12 +150,16 @@ body {
     flex-direction: row;  
 }
 
+
 .card1-content{
+    width: 275px;
+    height: 425px;
     padding: 21px 34px 0px;
     font: 21px black;
 }
 
 .cardLink1{
+    padding: 10px;
     background-color: #E33E42;
     text-decoration: none;
     color: white;
@@ -144,23 +167,29 @@ body {
 }
 
 .card2-content{
+    width: 275px;
+    height: 425px;
     padding: 21px 34px 0px;
     font: 21px black;
 }
 
 .cardLink2{
+    padding: 10px;
     background-color: #E33E42;
     text-decoration: none;
     color: white;
 }
 
 .card3-content {
+    width: 275px;
+    height: 425px;
     padding: 21px 34px 0px;
     font: 21px black;
     
 }
 
 .cardLink3{
+    padding: 10px;
     background-color: #E33E42;
     text-decoration: none;
     color: white;
@@ -168,9 +197,9 @@ body {
 
 .EFAlogoSection{
     display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: row;
+    /* justify-content: space-between;  */
+    /* align-items: center;  */
+    /* flex-direction: row; */
     margin: 40px 40px 40px 40px;
     border: 40px 40px 40px 40px;
     padding: 40px 40px 40px 40px;
@@ -188,5 +217,6 @@ body {
 
  .second-column h2 { 
      font: 36px #348DB9; 
+     padding: 20px;
 } 
 
